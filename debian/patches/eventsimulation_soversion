@@ -1,0 +1,17 @@
+Index: simon/simonlib/eventsimulation/CMakeLists.txt
+===================================================================
+--- simon.orig/simonlib/eventsimulation/CMakeLists.txt	2014-02-26 17:40:16.378646061 +0100
++++ simon/simonlib/eventsimulation/CMakeLists.txt	2014-02-26 19:06:32.464968633 +0100
+@@ -29,9 +29,11 @@
+   target_link_libraries(eventsimulation ${QT_LIBRARIES} ${KDE4_KDEUI_LIBS})
+ ENDIF(WIN32)
+ 
++set_target_properties(eventsimulation PROPERTIES VERSION ${CMAKE_SIMON_VERSION_STRING} SOVERSION ${CMAKE_SIMON_VERSION_MAJOR})
++
+ install( FILES ${eventsimulation_LIB_HDRS}
+   DESTINATION ${INCLUDE_INSTALL_DIR}/simon/eventsimulation
+   COMPONENT simondevel
+ )
+- 
++
+ install(TARGETS eventsimulation DESTINATION ${SIMON_LIB_INSTALL_DIR} COMPONENT simon)
