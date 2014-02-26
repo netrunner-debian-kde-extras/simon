@@ -1,0 +1,3 @@
+version=3
+
+ftp://ftp.kde.org/pub/kde/stable/simon/([\d\.]+)/src/simon-(.*)\.tar\.(?:xz|bz2)

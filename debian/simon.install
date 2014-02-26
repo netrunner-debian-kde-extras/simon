@@ -1,0 +1,5 @@
+usr/lib/*.so.*
+usr/lib/libeventsimulation.so
+usr/lib/kde4/
+usr/bin/
+usr/share/applications/kde4/
