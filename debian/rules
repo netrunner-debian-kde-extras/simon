@@ -4,11 +4,17 @@
 # Uncomment this to turn on verbose mode.
 #export DH_VERBOSE=1
 
+DEB_HOST_MULTIARCH ?= $(shell dpkg-architecture -qDEB_HOST_MULTIARCH)
+
 # This has to be exported to make some magic below work.
 export DH_OPTIONS
 
 %:
 	dh $@ --with kde
+
+override_dh_auto_configure:
+	dh_auto_configure -- \
+	    -DSIMON_LIB_INSTALL_DIR=/usr/lib/$(DEB_HOST_MULTIARCH)
 
 override_dh_auto_test:
 	true
