@@ -24,7 +24,7 @@ License: GFDL-2+
  `/usr/share/common-licenses/GFDL-1.2'.
 
 Files: cmake/FindOpenCV.cmake
-Copyright: 2010 Benoit Rat
+Copyright: 2010, Benoit Rat
 License: LGPL-2.1+
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Lesser General Public
@@ -40,7 +40,8 @@ License: LGPL-2.1+
  License along with this library.  If not, see <http://www.gnu.org/licenses/>.
 
 Files: cmake/FindOpenCV.cmake
-Copyright: Copyright 2009 Kitware, Inc., Copyright 2009 Philip Lowman <philip@yhbt.com>
+Copyright: 2009, Kitware, Inc.
+           2009, Philip Lowman <philip@yhbt.com>
 License: BSD-kitware
  Redistribution and use in source and binary forms, with or without
  modification, are permitted provided that the following conditions
@@ -75,11 +76,11 @@ Files: cmake/FindBISON.cmake
  cmake/FindFLEX.cmake
  cmake/FindPortaudio.cmake
  cmake/FindQwt6.cmake
-Copyright: 2006, Tristan Carel,
- 2011, Patrick von Reth, <patrick.vonreth@gmail.com>
- 2008-2011, Peter Grasch, <peter.grasch@bedahr.org>
- 2006 Andreas Schneider <mail@cynapses.org>
- 2007, Pau Garcia i Quiles, <pgquiles@elpauer.org>
+Copyright: 2006, Tristan Carel
+           2011, Patrick von Reth <patrick.vonreth@gmail.com>
+           2008-2011, Peter Grasch <peter.grasch@bedahr.org>
+           2006 Andreas Schneider <mail@cynapses.org>
+           2007, Pau Garcia i Quiles <pgquiles@elpauer.org>
 License: BSD
  Redistribution and use in source and binary forms, with or without
  modification, are permitted provided that the following conditions are met:
@@ -104,14 +105,14 @@ License: BSD
  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
  SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-Files: cmake/FindLibSampleRate.cmake,
- cmake/FindPocketsphinx.cmake,
- cmake/FindSphinxbase.cmake,
- cmake/SimonDirs.cmake,
- cmake/simon_package_settings.cmake,
-Copyright: 2008, 2011, Peter Grasch <peter.grasch@bedahr.org>,
- 2011, Patrick von Reth, <patrick.vonreth@gmail.com>,
- 2012, Vladislav Sitalo <root@stvad.org>,
+Files: cmake/FindLibSampleRate.cmake
+ cmake/FindPocketsphinx.cmake
+ cmake/FindSphinxbase.cmake
+ cmake/SimonDirs.cmake
+ cmake/simon_package_settings.cmake
+Copyright: 2008, 2011, Peter Grasch <peter.grasch@bedahr.org>
+           2011, Patrick von Reth <patrick.vonreth@gmail.com>
+           2012, Vladislav Sitalo <root@stvad.org>
 License: BSD-simon
  Redistribution and use in source and binary forms, with or without modification,
  are permitted provided that the following conditions are met:
