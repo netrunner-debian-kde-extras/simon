@@ -22,7 +22,7 @@ Homepage: http://www.simon-listens.org/
 
 Package: simon
 Architecture: any
-Depends: simon-data (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
+Depends: simon-data (= ${source:Version}), ${misc:Depends}, ${shlibs:Depends}
 Description: open-source speech recognition program
  Simon is an open-source speech recognition program and replaces the
  mouse and keyboard.  It is in development for physically disabled
