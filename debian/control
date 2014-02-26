@@ -3,15 +3,26 @@ Section: kde
 Priority: optional
 Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
-Build-Depends: debhelper (>= 9), pkg-kde-tools, cmake, kdelibs5-dev, libqwt-dev, libsamplerate0-dev, libsphinxbase-dev,
-  libpocketsphinx-dev, libopencv-dev, libxtst-dev, kdepimlibs5-dev, libqaccessibilityclient-dev, libboost1.54-dev,
-  libqtwebkit-dev
+Build-Depends: cmake,
+               debhelper (>= 9),
+               kdelibs5-dev,
+               kdepimlibs5-dev,
+               libboost1.54-dev,
+               libopencv-dev,
+               libpocketsphinx-dev,
+               libqaccessibilityclient-dev,
+               libqtwebkit-dev,
+               libqwt-dev,
+               libsamplerate0-dev,
+               libsphinxbase-dev,
+               libxtst-dev,
+               pkg-kde-tools
 Standards-Version: 3.9.5
 Homepage: http://www.simon-listens.org/
 
 Package: simon
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, simon-data (= ${binary:Version})
+Depends: simon-data (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
 Description: open-source speech recognition program
  Simon is an open-source speech recognition program and replaces the
  mouse and keyboard.  It is in development for physically disabled
